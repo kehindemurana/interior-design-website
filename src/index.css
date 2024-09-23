@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+   @apply text-sm border-2
+    border-black font-semibold
+          lg:text-base px-4 py-2 
+          shadow-[5px_5px_0px_0px]
+          hover:text-white 
+          duration-300
+           hover:bg-black 
+           hover:shadow-[5px_5px_0px_0px_#6c6c6c]
+          
+  }
+}
